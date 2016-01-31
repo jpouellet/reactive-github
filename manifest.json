@@ -7,5 +7,5 @@
 		"matches": ["https://github.com/*"],
 		"css": ["inject.css"]
 	}],
-	"permissions": ["tabs", "https://github.com/*"]
+	"permissions": ["https://github.com/*"]
 }
