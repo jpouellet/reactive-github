@@ -4,8 +4,14 @@
 	"version": "0.1",
 	"description": "Makes GitHub takes full browser width.",
 	"content_scripts": [{
-		"matches": ["https://github.com/*"],
+		"matches": [
+			"https://github.com/*",
+			"https://gist.github.com/*"
+		],
 		"css": ["inject.css"]
 	}],
-	"permissions": ["https://github.com/*"]
+	"permissions": [
+		"https://github.com/*",
+		"https://gist.github.com/*"
+	]
 }
