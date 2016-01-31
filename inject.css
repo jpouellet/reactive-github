@@ -1,0 +1,10 @@
+.header, .pagehead.repohead {
+	min-width: 0 !important;
+}
+.user-nav {
+	margin-right: 0 !important;
+}
+
+.container {
+	width: 100% !important;
+}
