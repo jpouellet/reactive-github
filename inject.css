@@ -1,10 +1,36 @@
-.header, .pagehead.repohead {
+/* Debugging. Obvious way to make sure the changes took effect. */
+/* .header { background-color: blue !important; } */
+
+/* .header, .pagehead.repohead, */
+body {
 	min-width: 0 !important;
+}
+.columns {
+	margin-right: 0 !important;
 }
 .user-nav {
 	margin-right: 0 !important;
 }
-
 .container {
 	width: 100% !important;
+}
+
+/* Make certain things not fixed-px-widths which grow the page or overlap with things. */
+.table-list-cell.issue-title {
+	/* Issue list entries. */
+	width: 100% !important;
+}
+.one-fourth .vcard-avatar img {
+	/* Profile picture. */
+	width: 100% !important;
+	height: 100% !important;
+}
+.graph-canvas {
+	/* Commit histogram. Scroll horizontally in container if needed. */
+	overflow-x: auto !important;
+	height: inherit !important;
+}
+.repo-list-item .participation-graph svg {
+	width: 100% !important;
+	height: 100% !important;
 }
