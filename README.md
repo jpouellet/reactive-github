@@ -15,6 +15,7 @@ usable experience for me.
 - The name of repos in `mini-repo-list-item`s overflow and can overlap and/or grow the page.
 - Some buttons overflow out of their containers.
 - The whole button reflow madness.
+- Margins could be handled in a more consistent manner.
 - Other things I don't remember right now.
 
 Pull requests happily accepted! :)
