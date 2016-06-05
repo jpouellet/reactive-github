@@ -34,3 +34,16 @@ body {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+/* Wrap wiki content around navbar instead of having it steal width for the entire page height. */
+.has-rightbar .wiki-body, .has-rightbar .wiki-footer {
+	margin-right: 0px !important;
+}
+.has-rightbar .wiki-body .markdown-body {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.wiki-rightbar {
+	/* Hack to hide colliding markdown header bottom-border. */
+	background: white;
+}
